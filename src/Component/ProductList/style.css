@@ -1,0 +1,22 @@
+.tapbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+.tapbarWrapper{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.tapleft{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+.tapright{
+    display: flex;
+    justify-content: first baseline;
+}

@@ -1,0 +1,70 @@
+
+:root{
+    --offcanvas-width: 270px;
+    --topNavbarHeight: 56px;
+    --backgroundcolor: red;
+    --visibility:visible;
+}
+
+.sidebar-nav{
+  width: var(--offcanvas-width) !important;
+}
+
+.div{
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.btn-nav{
+  border: none;
+  border-radius: 5em;
+  color: #555;
+
+}
+.sidebar-link{
+  display: flex !important;
+  align-items: center ;
+}
+.sidebar-link .right-icon{
+  display: inline-flex !important;
+  transition: all ease 0.25s;
+}
+.sidebar-link[aria-expanded="true"] .right-icon{
+  transform: rotate(180deg) ;
+}
+.homeWidgets{
+  display: flex;
+  margin: 20px;
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+.link:hover{
+  text-decoration: none;
+  color: inherit;
+}
+@media (min-width: 992px){
+  body{
+    overflow: auto !important;
+  }
+  .offcanvas-backdrop.show {
+    opacity: 0 !important;
+}
+main{
+  margin-left: var(--offcanvas-width);
+}
+  .sidebar-nav{
+    transform: none !important;
+    visibility: visible !important;
+    top: var(--topNavbarHeight) !important;
+    height: calc(100% - var(--topNavbarHeight)) !important;
+  }
+
+}
+
+
+
+
