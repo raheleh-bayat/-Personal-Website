@@ -21,7 +21,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository to your local machine
 
-
+```buch
+  # Copy code 
+  git clone https://github.com/raheleh-bayat/admin-panel.git
+```
 2. Open the `index.html` file in your web browser
 
 ## Deployment
@@ -30,13 +33,14 @@ This website is hosted on GitHub Pages for easy accessibility.
 
 ## Built With
 
+- JavaScript
+- react
 - HTML
 - CSS
-- JavaScript
 
 ## Author
 
-[YOUR NAME]
+Raheleh Bayat
 
 ## Acknowledgments
 
