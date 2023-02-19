@@ -1,50 +1,70 @@
-# Personal Portfolio Website
+# Project Panel Admin
 
-A personal portfolio website built using HTML, CSS, and JavaScript with a responsive layout, interactive elements, and smooth scrolling.
+This is a project panel admin built with JavaScript, React, HTML, and CSS.
 
-## Features
+# Getting Started
 
-- Responsive layout that adjusts to different screen sizes
-- Interactive elements, such as buttons and hover effects
-- Smooth scrolling between sections of the website
-- Clean and modern design
+## Prerequisites
 
-## Getting Started
+. Node.js (v12.0.0 or higher)
+. npm (v6.0.0 or higher)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Installation
 
-### Prerequisites
+1. Clone the repository: git clone https://github.com/username/project-panel-admin.git
 
-- A web browser (e.g. Google Chrome, Mozilla Firefox, Safari, etc.)
+2. Install dependencies: npm install
 
-### Installing
+# Usage
 
-1. Clone the repository to your local machine
+To start the project, run the following command:
 
-```buch
-  # Copy code 
-  git clone https://github.com/raheleh-bayat/admin-panel.git
-```
-2. Open the `index.html` file in your web browser
+``
+npm start
+``
 
-## Deployment
+This will start a development server and open the project in your default browser.
 
-This website is hosted on GitHub Pages for easy accessibility.
+You can use the panel admin to manage projects, tasks, and users.
 
-## Built With
+# Contributing
 
-- JavaScript
-- react
-- HTML
-- CSS
+Contributions are welcome! To contribute to the project, please follow these steps:
 
-## Author
+1. Fork the repository.
 
-Raheleh Bayat
+2. Create a new branch: git checkout -b new-feature
 
-## Acknowledgments
+3. Make changes and commit them: git commit -am 'Add new feature'
 
-- Inspiration from [example website or source]
-- Smooth scrolling effect from [example library or source]
+4. Push to the branch: git push origin new-feature
 
+5. Submit a pull request.
+
+# Acknowledgements
+
+. This project was built using Create React App.
+
+. The design was inspired by example.com.
+
+# References
+
+. React documentation
+
+. HTML documentation
+
+. CSS documentation
+
+Q: How do I build the project for production?
+
+To build the project for production, use the following command:
+
+``
+npm run build
+``
+This will create a production-ready build in the build directory.
+
+# Changelog
+## Version 1.0.0 (2023-02-19)
+Initial release.
 
