@@ -7,6 +7,7 @@ This is a project panel admin built with JavaScript, React, HTML, and CSS.
 ## Prerequisites
 
 . Node.js (v12.0.0 or higher)
+
 . npm (v6.0.0 or higher)
 
 ## Installation
