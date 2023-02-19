@@ -12,7 +12,7 @@ This is a project panel admin built with JavaScript, React, HTML, and CSS.
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/username/project-panel-admin.git
+1. Clone the repository: git clone https://github.com/raheleh-bayat/admin-panel
 
 2. Install dependencies: npm install
 
