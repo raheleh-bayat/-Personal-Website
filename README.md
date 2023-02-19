@@ -42,12 +42,6 @@ Contributions are welcome! To contribute to the project, please follow these ste
 
 5. Submit a pull request.
 
-# Acknowledgements
-
-. This project was built using Create React App.
-
-. The design was inspired by example.com.
-
 # References
 
 . React documentation
@@ -55,15 +49,6 @@ Contributions are welcome! To contribute to the project, please follow these ste
 . HTML documentation
 
 . CSS documentation
-
-Q: How do I build the project for production?
-
-To build the project for production, use the following command:
-
-``
-npm run build
-``
-This will create a production-ready build in the build directory.
 
 # Changelog
 ## Version 1.0.0 (2023-02-19)
